@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Panel</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h2>Admin Panel</h2>
+
+<h3>Change Logo</h3>
+<input id="logoUrl" placeholder="Paste Logo Image URL">
+<button class="primary-btn" id="updateLogo">Update Logo</button>
+
+<hr>
+
+<h3>Add / Edit Product</h3>
+<input id="pname" placeholder="Product Name">
+<input id="pprice" placeholder="Price">
+<input id="pimage" placeholder="Image URL">
+<textarea id="pdesc" placeholder="Description"></textarea>
+
+<button class="primary-btn" id="addProduct">Save Product</button>
+
+<hr>
+
+<h3>All Products</h3>
+<div id="productListAdmin"></div>
+
+<hr>
+
+<h3>Orders</h3>
+<div id="ordersAdmin"></div>
+
+</div>
+
+<script type="module" src="js/admin.js"></script>
+</body>
+  </html>
